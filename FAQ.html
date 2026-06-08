@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="font-size: 14px;" lang="en"><head>
+<html style="font-size: 16px;" lang="en"><head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <meta name="keywords" content="">
@@ -9,538 +9,109 @@
 <link rel="stylesheet" href="FAQ.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 8.4.0, nicepage.com">
+    <meta name="generator" content="Nicepage 8.5.1, nicepage.com">
     
     
     
-    
-    
-    
-    
-    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Lobster:wght@400&amp;family=Quicksand:wght@300;400;500;600;700">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800">
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
-		"name": "Site1",
-		"logo": "images/SkyHighResidencesLogo.png"
+		"name": "RampsCorp-B2B",
+		"logo": "images/rampslogodark.png"
 }</script>
-    <meta name="theme-color" content="#1a81c7">
+    <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="FAQ">
-    <meta property="og:description" content="">
     <meta property="og:type" content="website">
-  <script>
-    (function() {
-    function gdprConfirmed() {
-        return true;
-    }
-
-    var added = false;
-    var currentScript = document.currentScript;
-
-    function insertHTML(html) {
-        var container = document.createElement('div');
-        container.innerHTML = html;
-        container.querySelectorAll('script').forEach(s => {
-            const ns = document.createElement('script');
-            ns.async = s.async;
-            if (s.src) {
-                ns.src = s.src;
-            } else {
-                ns.textContent = s.textContent;
-            }
-            s.replaceWith(ns);
-        });
-
-            var fragment = document.createDocumentFragment();
-            fragment.append(...container.childNodes);
-
-            if (currentScript && currentScript.parentNode) {
-                currentScript.after(fragment);
-            }
-    }
-
-    window._npAddGAnalytics = function () {
-        if (gdprConfirmed() && !added) {
-            var gaBody = "<!-- Google Analytics -->\n    <gascript async src=\"https://www.googletagmanager.com/gtag/js?id=6Leh1bssAAAAAIxQTJvsEvmKQvjjZnZ1kiLBfYgB\"></gascript>\n    <gascript>\n        window.dataLayer = window.dataLayer || [];\n        function gtag(){dataLayer.push(arguments);}\n        gtag('js', new Date());\n        gtag('config', '6Leh1bssAAAAAIxQTJvsEvmKQvjjZnZ1kiLBfYgB');\n    </gascript>\n    <!-- End Google Analytics -->";
-            var replacedBody = gaBody.replace(/gascript/g, 'script');
-            insertHTML(replacedBody);
-            added = true;
-        }
-    }
-
-    window._npAddGAnalytics();
-    })();
-    </script><meta name="referrer" content="origin"><script>
-    window.recaptchaRenderedV2 = false;
-    window.recaptchaFallback = false;
-    window.recaptchaSiteKeyV2 = '6LdfeIwrAAAAAMnDkaIExdHsV0Nsj8y-CU9AyTjZ';
-
-    function gdprConfirmed() {
-        return true;
-    }
-
-    function dynamicLoadScript() {
-        var script = document.createElement('script');
-        script.src = 'https://www.google.com/recaptcha/api.js?render=6Leh1bssAAAAAIxQTJvsEvmKQvjjZnZ1kiLBfYgB';
-        script.async = true;
-        script.onload = function () {
-            var event = new CustomEvent("recaptchaLoaded");
-            document.dispatchEvent(event);
-        };
-        document.body.appendChild(script);
-    }
-
-    function showRecaptchaError(error) {
-        error = error || '';
-        var formError = document.querySelector('.u-form-send-error');
-
-        if (formError) {
-            formError.innerText = 'Site Owner Error: ' + error.replace(/:[\s\S]*/, '');
-            formError.style.display = 'block';
-        }
-
-        console.error('Error in grecaptcha: ', error);
-    }
-
-    document.addEventListener('DOMContentLoaded', function () {
-        var confirmButtons = document.querySelectorAll('.u-cookies-consent .u-button-confirm');
-        confirmButtons.forEach(function (button) {
-            button.onclick = dynamicLoadScript;
-        });
-    });
-    </script>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function(){
-            if (!gdprConfirmed()) {
-                return;
-            }
-            dynamicLoadScript();
-        });
-    </script>
-
-    <script>
-        document.addEventListener("recaptchaLoaded", function() {
-            if (!gdprConfirmed()) {
-                return;
-            }
-
-            (function (grecaptcha, sitekey, actions) {
-                var recaptcha = {
-                    execute: function (action, submitFormCb) {
-                        if (typeof grecaptcha === 'undefined' || typeof grecaptcha.execute !== 'function') {
-                            showRecaptchaError('reCAPTCHA script failed to load.');
-                            return;
-                        }
-
-                        try {
-                            grecaptcha.execute(sitekey, {action: action}).then((token) => {
-                                if (!token) {
-                                    throw new Error('Empty token received from reCAPTCHA');
-                                }
-
-                                var forms = document.getElementsByTagName('form');
-
-                                for (var i = 0; i < forms.length; i++) {
-                                    var response = forms[i].querySelector('[name="recaptchaResponse"]');
-
-                                    if (!response) {
-                                        response = document.createElement('input');
-                                        response.setAttribute('type', 'hidden');
-                                        response.setAttribute('name', 'recaptchaResponse');
-                                        forms[i].appendChild(response);
-                                    }
-
-                                    response.value = token;
-                                }
-
-                                submitFormCb();
-                            }).catch((e) => {
-                                showRecaptchaError(e.message);
-                            });
-                        } catch (e) {
-                            showRecaptchaError(e.message);
-                        }
-                    },
-
-                    executeContact: function (submitFormCb) {
-                        recaptcha.execute(actions['contact'], submitFormCb);
-                    }
-                };
-
-                window.recaptchaObject = recaptcha;
-                window.grecaptchaObject = grecaptcha;
-            })(
-                grecaptcha,
-                
-                '6Leh1bssAAAAAIxQTJvsEvmKQvjjZnZ1kiLBfYgB',
-                {'contact': 'contact'}
-            );
-        });
-    </script>
-
-    <script>
-    window.showRecaptchaV2 = function (form) {
-        if (!form || !form.length) {
-            return;
-        }
-        if (typeof window.grecaptchaObject === 'undefined' || !window.grecaptchaObject) {
-            return;
-        }
-
-        const formEl = form[0];
-
-        let container = document.getElementById('recaptcha-v2-container');
-        if (!container) {
-            container = document.createElement('div');
-            container.id = 'recaptcha-v2-container';
-            formEl.parentElement.appendChild(container);
-        }
-
-        let tokenReceived = false;
-        let timeoutHandle;
-
-        if (window.recaptchaRenderedV2 === false || typeof window.recaptchaRenderedV2 === 'undefined') {
-            window.recaptchaRenderedV2 = window.grecaptchaObject.render('recaptcha-v2-container', {
-                'sitekey': window.recaptchaSiteKeyV2,
-                'size': 'invisible',
-                'callback': function (token) {
-                    clearTimeout(timeoutHandle);
-
-                    if (!token) {
-                        showRecaptchaError('reCAPTCHA v2 token was empty. Please try again.');
-                        return;
-                    }
-
-                    tokenReceived = true;
-
-                    let recaptchaResponseV2 = formEl.querySelector('input[name="recaptchaResponseV2"]');
-
-                    if (!recaptchaResponseV2) {
-                        recaptchaResponseV2 = document.createElement('input');
-                        recaptchaResponseV2.type = 'hidden';
-                        recaptchaResponseV2.name = 'recaptchaResponseV2';
-                        formEl.appendChild(recaptchaResponseV2);
-                    }
-
-                    recaptchaResponseV2.value = token;
-
-                    if (window.recaptchaSiteKeyV2) {
-                        let siteKeyInput = formEl.querySelector('input[name="siteKey"]');
-
-                        if (siteKeyInput) {
-                            siteKeyInput.value = window.recaptchaSiteKeyV2;
-                        }
-                    }
-
-                    document.querySelectorAll('.u-form-send-error').forEach(el => {
-                        el.style.display = 'none';
-                    });
-
-                    const event = new CustomEvent('submit', {
-                        detail: { recaptchaPassed: true },
-                        bubbles: true,
-                        cancelable: true,
-                    });
-
-                    formEl.dispatchEvent(event);
-                },
-                'error-callback': function () {
-                    clearTimeout(timeoutHandle);
-                    showRecaptchaError('reCAPTCHA v2 error. Please try again.');
-                },
-                'expired-callback': function () {
-                    clearTimeout(timeoutHandle);
-                }
-            });
-
-            window.grecaptchaObject.reset(window.recaptchaRenderedV2);
-
-            setTimeout(() => {
-                window.grecaptchaObject.execute(window.recaptchaRenderedV2);
-            }, 300);
-
-            timeoutHandle = setTimeout(function () {
-                if (!tokenReceived) {
-                    showRecaptchaError('The Contact Form could not be submitted because Google reCAPTCHA v3 detected unusual activity from your connection. Please try again later, or complete the reCAPTCHA v2 challenge if it appears.');
-                }
-            }, 120000);
-        } else {
-            window.grecaptchaObject.reset(window.recaptchaRenderedV2);
-
-            setTimeout(() => {
-                window.grecaptchaObject.execute(window.recaptchaRenderedV2);
-            }, 300);
-        }
-    };
-    </script>
-<meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body data-path-to-root="./" data-include-products="false" class="u-body u-clearfix u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-palette-1-base" id="header"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-sm u-sheet-1">
-        <nav class="u-menu u-menu-one-level u-menu-open-right u-offcanvas u-menu-1" role="navigation" data-responsive-from="MD">
-          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;">
-            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-hamburger-link u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" tabindex="-1" aria-label="Open menu" aria-controls="b47b">
+  <meta name="referrer" content="origin"><meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-path-to-root="./" data-include-products="true" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="header"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+        <a href="#" class="u-image u-logo u-image-1" data-image-width="2550" data-image-height="2304">
+          <img src="images/rampslogodark.png" class="u-logo-image u-logo-image-1">
+        </a>
+        <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1" role="navigation">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-hamburger-link u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" tabindex="-1" aria-label="Open menu" aria-controls="915c">
               <svg class="u-svg-link" viewBox="0 0 24 24"><use xlink:href="#menu-hamburger"></use></svg>
               <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
 </g></svg>
             </a>
           </div>
           <div class="u-custom-menu u-nav-container">
-            <ul class="u-nav u-unstyled u-nav-1" role="menubar"><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link u-text-active-white u-text-body-color u-text-hover-white u-nav-link-2" href="./">Home</a>
-</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link u-text-active-white u-text-body-color u-text-hover-white u-nav-link-2" href="Rooms.html">Rooms</a>
-</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link u-text-active-white u-text-body-color u-text-hover-white u-nav-link-2" href="Amenities.html">Amenities</a>
-</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link u-text-active-white u-text-body-color u-text-hover-white u-nav-link-2" href="Location.html">Location</a>
-</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link u-text-active-white u-text-body-color u-text-hover-white u-nav-link-2" href="FAQ.html">FAQ</a>
-</li><li role="none" class="u-nav-item"><a tabindex="-1" role="menuitem" class="u-button-style u-file-link u-nav-link u-text-active-white u-text-body-color u-text-hover-white u-nav-link-2" href="files/SkyHigh_Contract_of_Lease.docx" target="_blank">Contract</a>
+            <ul class="u-nav u-unstyled u-nav-1" role="menubar"><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-nav-link-2" href="./">Home</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-nav-link-2" href="Housewares.html">Housewares</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-nav-link-2" href="Toys.html">Toys</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-nav-link-2" href="News-and-Events.html">News and Events</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-nav-link-2" href="FAQ.html">FAQ</a>
 </li></ul>
           </div>
-          <div class="u-custom-menu u-nav-container-collapse" id="b47b" role="region" aria-label="Menu panel">
+          <div class="u-custom-menu u-nav-container-collapse" id="915c" role="region" aria-label="Menu panel">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close" tabindex="-1" aria-label="Close menu"></div>
                 <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2" role="menubar"><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="./">Home</a>
-</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="Rooms.html">Rooms</a>
-</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="Amenities.html">Amenities</a>
-</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="Location.html">Location</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="Housewares.html">Housewares</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="Toys.html">Toys</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="News-and-Events.html">News and Events</a>
 </li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="FAQ.html">FAQ</a>
-</li><li role="none" class="u-nav-item"><a tabindex="-1" role="menuitem" class="u-button-style u-file-link u-nav-link" href="files/SkyHigh_Contract_of_Lease.docx" target="_blank">Contract</a>
 </li></ul>
               </div>
             </div>
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
-          <style class="menu-style">@media (max-width: 939px) {
-                    [data-responsive-from="MD"] .u-nav-container {
-                        display: none;
-                    }
-                    [data-responsive-from="MD"] .menu-collapse {
-                        display: block;
-                    }
-                }</style>
         </nav>
-        <a href="./" data-page-id="355610374" class="u-align-left-xs u-image u-logo u-image-1" data-image-width="1848" data-image-height="900">
-          <img src="images/SkyHighResidencesLogo.png" class="u-logo-image u-logo-image-1" title="Home">
-        </a>
       </div></header>
-    <section class="u-clearfix u-section-1" id="block-15">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <h3 class="u-align-center u-text u-text-default-lg u-text-default-md u-text-default-sm u-text-default-xl u-text-1"> Frequently Asked Questions</h3>
-      </div>
+    <section class="u-clearfix u-section-1" id="block-1">
+      <div class="u-clearfix u-sheet u-sheet-1"></div>
     </section>
-    <section class="u-clearfix u-section-2" id="block-14">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-text u-text-default u-text-1"><span style="font-weight: 700;">RATES &amp; PAYMENTS</span>
-          <br>
-          <br><span style="font-weight: 700;">What are your rates — per room or per person? </span>
-          <br>The 4-bed, 2-bed, and Queen Bed unit rate is for the full unit, regardless of how many people are staying. Rates are subject to availability.<br>
-          <br><span style="font-weight: 700;">What are the payment terms? </span>
-          <br>A 2-month security deposit is required upon signing. Monthly rent is due on the 15th or last day of each month. Utilities and other charges follow the same due date. If move-in date falls on another date, the first few days' rent will be prorated to adjust to the 15th or 30th.<br>
-          <br><span style="font-weight: 700;">Can I pay cash? </span>
-          <br>We do not accept cash. Accepted payment methods: bank transfer (BDO), PDC checks, or GCash.<br>
-          <br><span style="font-weight: 700;">When is the due date? </span>
-          <br>Every 15th or the last working day of the month. There is no grace period — late payments are subject to penalties.<br>
-          <br><span style="font-weight: 700;">How can I check my bill? </span>
-          <br>We send a monthly invoice to your registered email address and/or phone number ahead of your due date. <br>
-          <br><span style="font-weight: 700;">LEASING</span>
-          <br>
-          <br><span style="font-weight: 700;">What is the minimum lease term? </span>
-          <br>6 months.<br>
-          <br><span style="font-weight: 700;">Is pre-termination allowed? </span>
-          <br>Yes, but it results in forfeiture of your full 2-month security deposit. You remain responsible for all unpaid rent, utilities, and penalties.<br>
-          <br><span style="font-weight: 700;">How much notice do I need to give before moving out? </span>
-          <br>Tenants are required to give 60 days written notice before their intended move-out date.<br>
-          <br><span style="font-weight: 700;">Can I move in early? </span>
-          <br>Generally no, but we consider it case-by-case subject to availability.<br>
-          <br><span style="font-weight: 700;">What documents do I need on move-in day? </span>
-          <br>Signed contract, valid IDs, information sheet, and signed move-in notice. A soft copy is acceptable.<br>
-          <br><span style="font-weight: 700;">Haven't paid yet — can I still move in? </span>
-          <br>No. Security deposit must be settled and contract signed at least 24 hours before move-in.<br>
-          <br><span style="font-weight: 700;">Can I transfer to another unit? </span>
-          <br>Yes, subject to availability and transfer fees.<br>
-          <br><span style="font-weight: 700;">Can I sublease my bed or room? </span>
-          <br>No. Skyhigh staff will verify residency before allowing building access. Unauthorized subletting is subject to immediate contract termination and penalties. <br>
-          <br><span style="font-weight: 700;">UNIT &amp; FACILITIES</span>
-          <br>
-          <br><span style="font-weight: 700;">What features are included in the room?</span>
-          <br>RFID-access door, air-conditioning, custom bunk bed, study desk, built-in cabinet, window blinds, mattress, and a split bathroom with separate toilet,<br>&nbsp;lavatory, and shower.<br>
-          <br><span style="font-weight: 700;">Are utilities included in the base rate? </span>
-          <br>No. Tenants are billed monthly via submeters for water and electricity.<br>
-          <br><span style="font-weight: 700;">Is WiFi available? </span>
-          <br>Yes — high-speed WiFi is free throughout the building.<br>
-          <br><span style="font-weight: 700;">Can I bring my own cabinet? </span>
-          <br>No need — every unit has built-in cabinetry.<br>
-          <br><span style="font-weight: 700;">Is there additional storage? </span>
-          <br>Yes, storage lockers are available in the building. Ask at the reception for details.<br>
-          <br><span style="font-weight: 700;">Can I keep things outside my room (trash can, shoes, mat, etc.)? </span>
-          <br>No. Tenants are not allowed to keep any items outside of their rented premises.<br>
-          <br><span style="font-weight: 700;">Who cleans the units? </span>
-          <br>Tenants are responsible for keeping their units clean and in good condition. Housekeeping services are available at an additional fee — ask at the reception.<br>
-          <br><span style="font-weight: 700;">Who cleans the common areas? </span>
-          <br>Skyhigh staff maintains all common areas. Tenants are expected to help keep them clean and to report any issues immediately. <br>
-          <br><span style="font-weight: 700;">ROOMMATES &amp; GUESTS</span>
-          <br>
-          <br><span style="font-weight: 700;">How are roommates determined? </span>
-          <br>By gender only.<br>
-          <br><span style="font-weight: 700;">Do you accept co-ed sharing? </span>
-          <br>Yes, under these conditions: the full unit must be occupied, move-in and move-out dates must be the same, and remaining tenants must find a replacement if someone moves out.<br>
-          <br><span style="font-weight: 700;">Can we occupy a unit if we are only 3? </span>
-          <br>Yes, but we will rent the remaining bed to a fourth tenant. To avoid this, you may rent the fourth bed yourself.<br>
-          <br><span style="font-weight: 700;">If we are 5 people, can we take a 4-bed unit? </span>
-          <br>No. Maximum occupancy equals the number of beds in the unit.<br>
-          <br><span style="font-weight: 700;">Can I invite guests? </span>
-          <br>1-2 visitors only. Guests are not allowed to stay overnight. Unauthorized occupants are subject to penalties as outlined in the House Rules. <br>
-          <br><span style="font-weight: 700;">RULES &amp; POLICIES</span>
-          <br>
-          <br><span style="font-weight: 700;">Is there an age limit? </span>
-          <br>Tenants must be at least 18 years old.<br>
-          <br><span style="font-weight: 700;">Are pets allowed? </span>
-          <br>No.<br>
-          <br><span style="font-weight: 700;">Can I cook in the room? </span>
-          <br>You may use a microwave, but stoves, toasters, and ovens are not allowed for fire safety reasons.<br>
-          <br><span style="font-weight: 700;">Can I wash clothes in the unit? </span>
-          <br>No. Use the nearby partner laundromat — tenants enjoy a 10% discount.<br>
-          <br><span style="font-weight: 700;">Can I bring appliances? </span>
-          <br>Subject to prior approval from Skyhigh Property Management. Non-fire hazard appliances only.<br>
-          <br><span style="font-weight: 700;">Is there a curfew? </span>
-          <br>No curfew, but tenants are expected to be respectful of others at all times.<br>
-          <br><span style="font-weight: 700;">Can I smoke inside? </span>
-          <br>Strictly no smoking anywhere in the Skyhigh vicinity. Please refer to the House Rules for the applicable fine. <br>
-          <br><span style="font-weight: 700;">PARKING &amp; AMENITIES</span>
-          <br>
-          <br><span style="font-weight: 700;">How do I reserve a parking slot? </span>
-          <br>Visit the reception. Slots are available at an additional fee, co-terminus with your rental contract. Slots are limited and allocated on a first-come, first-served basis.<br>
-          <br><span style="font-weight: 700;">Is there guest parking? </span>
-          <br>No.<br>
-          <br><span style="font-weight: 700;">Do you provide drinking water? </span>
-          <br>No, but it is available at nearby convenience stores. <br>
-          <br><span style="font-weight: 700;">CORPORATE</span>
-          <br>
-          <br><span style="font-weight: 700;">Does Skyhigh offer corporate leases? </span>
-          <br>Yes. Please contact our property manager for tailored corporate terms, pricing, and conditions.<br>
-        </p>
-      </div>
-    </section>
-    <section class="u-clearfix u-section-3" id="block-16">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-align-center u-text u-text-default-lg u-text-default-md u-text-default-sm u-text-default-xl u-text-1">House Rules</h2>
-      </div>
-    </section>
-    <section class="u-clearfix u-section-4" id="block-17">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-text u-text-default u-text-1"><span style="font-weight: 700;"></span><span style="font-weight: 700;">House Rules &amp; Penalties</span>
-          <br>All tenants and visitors are expected to follow these rules at all times. Violations are subject to the fines and penalties listed below.<br>
-          <br><span style="font-weight: 700;">1. PAYMENTS &amp; FINANCIAL PENALTIES </span>
-          <br>• Late payment: 5% of monthly rental per month or fraction thereof, with no grace period <br>• Returned / bounced payment: ₱500 per incident <br>• Failure to give 60-day move-out notice: forfeiture of 1-month deposit <br>• Pre-termination of contract: forfeiture of full 2-month security deposit <br>
-          <br><span style="font-weight: 700;">2. OCCUPANCY &amp; GUESTS </span>
-          <br>• Unauthorized occupant staying in unit: ₱3,000 per incident <br>• Unauthorized overnight guest: ₱3,000 per night <br>• Exceeding the 2-guest visitor limit: ₱3,000 per incident <br>• Unauthorized subletting of bed or unit: ₱10,000 + immediate contract termination <br>
-          <br><span style="font-weight: 700;">3. SMOKING </span>
-          <br>• Smoking anywhere in the Skyhigh vicinity: ₱10,000 per infraction <br>• Repeated smoking violations: immediate contract termination <br>
-          <br><span style="font-weight: 700;">4. NOISE &amp; CONDUCT </span>
-          <br>• Excessive noise between 10PM–7AM — 1st offense: written warning <br>• Excessive noise between 10PM–7AM — 2nd offense: ₱2,000 fine <br>• Excessive noise between 10PM–7AM — 3rd offense: contract termination <br>• Harassment of staff or other tenants: immediate contract termination <br>
-          <br><span style="font-weight: 700;">5. APPLIANCES &amp; FIRE SAFETY </span>
-          <br>• Use of unauthorized appliances (stove, toaster, oven, etc.): ₱3,000 + confiscation of appliance <br>• Tampering with fire exits, fire alarms, or CCTV: ₱10,000 + possible legal action <br>• Cooking using open flame or heating appliance in unit: ₱3,000 + confiscation <br>
-          <br><span style="font-weight: 700;">6. CLEANLINESS &amp; COMMON AREAS </span>
-          <br>• Leaving trash outside designated areas: ₱500 per incident <br>• Leaving shoes, mats, or items outside your unit door: ₱500 per incident <br>• Leaving dishes or food in common areas: ₱500 per incident <br>• Failure to clean unit upon move-out: ₱4,000 or actual cost of cleaning, whichever is higher <br>
-          <br><span style="font-weight: 700;">7. PARKING </span>
-          <br>• Parking without a registered slot: ₱1,000 per day <br>• Blocking other vehicles: ₱1,000 per incident <br>
-          <br><span style="font-weight: 700;">8. PROPERTY &amp; KEYS </span>
-          <br>• Lost RFID card or key: ₱1000 per item <br>• Not returning RFID/keys upon move-out: ₱1000 per item <br>• Damage to property: full cost of repair or replacement beyond normal wear and tear <br>
-          <br>
-          <br>Skyhigh reserves the right to update these rules and penalties with prior notice to tenants. <br>For questions, please contact us at 0960-252-4932 or visit the reception.&nbsp;<br>
-        </p>
-      </div>
-    </section>
-    <section class="u-align-center u-clearfix u-gradient u-image u-section-5" data-image-width="4000" data-image-height="2250" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="" id="block-18">
-      <div class="custom-expanded data-layout-selected u-clearfix u-gutter-0 u-layout-wrap u-layout-wrap-1">
-        <div class="u-layout">
-          <div class="u-layout-row">
-            <div class="u-size-30" style="min-height: 0px;">
-              <div class="u-layout-col">
-                <div class="u-container-style u-layout-cell u-size-60 u-layout-cell-1">
-                  <div class="u-container-layout u-container-layout-1">
-                    <h3 class="u-text u-text-1"> Interested? Let’s Talk — Units Fill Up Fast.</h3>
-                    <div class="u-expanded-width u-form u-radius u-form-1">
-                      <form action="https://service.nicepagesrv.com/form/v4/form-process" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="email" name="form" style="padding: 10px;">
-                        <div class="u-form-group u-form-name">
-                          <label for="name-2653" class="u-label u-label-1">Name</label>
-                          <input type="text" placeholder="Enter your Name" id="name-2653" name="name" class="u-input u-input-rectangle u-radius u-input-1" required="">
-                        </div>
-                        <div class="u-form-email u-form-group">
-                          <label for="email-2653" class="u-label u-label-2">Email</label>
-                          <input type="email" placeholder="Enter a valid email address" id="email-2653" name="email" class="u-input u-input-rectangle u-radius u-input-2" required="required">
-                        </div>
-                        <div class="u-form-group u-form-message">
-                          <label for="message-2653" class="u-label u-label-3">Message</label>
-                          <textarea placeholder="Enter your message" rows="4" cols="50" id="message-2653" name="message" class="u-input u-input-rectangle u-radius u-input-3" required=""></textarea>
-                        </div>
-                        <div class="u-align-center u-form-group u-form-submit">
-                          <a href="#" class="u-border-none u-btn u-btn-round u-btn-submit u-button-style u-palette-4-base u-radius u-btn-1">Submit</a>
-                          <input type="submit" value="submit" class="u-form-control-hidden">
-                        </div>
-                        <div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent.</div>
-                        <div class="u-form-send-error u-form-send-message">Unable to send your message. Please fix errors then try again.</div>
-                        <input type="hidden" value="" name="recaptchaResponse">
-                        <input type="hidden" name="formServices" value="2a9c5549-8f5c-c67a-e201-888c85968e6c">
-                        <input type="hidden" name="siteKey" value="6Leh1bssAAAAAIxQTJvsEvmKQvjjZnZ1kiLBfYgB">
-                      </form>
+    
+    
+    
+    <footer class="u-align-center u-clearfix u-container-align-center u-footer u-grey-80 u-footer" id="footer"><div class="u-clearfix u-sheet u-sheet-1">
+        <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
+                <div class="u-container-layout u-valign-top-xl u-container-layout-1">
+                  <div class="u-expanded-width u-grey-light-2 u-map u-map-1">
+                    <div class="embed-responsive">
+                      <iframe class="embed-responsive-item" src="https://maps.google.com/maps?output=embed&amp;q=Manhattan%2C%20New%20York&amp;z=10&amp;t=m" data-map="JTdCJTIyYWRkcmVzcyUyMiUzQSUyMk1hbmhhdHRhbiUyQyUyME5ldyUyMFlvcmslMjIlMkMlMjJ6b29tJTIyJTNBMTAlMkMlMjJ0eXBlSWQlMjIlM0ElMjJyb2FkJTIyJTJDJTIybGFuZyUyMiUzQW51bGwlMkMlMjJhcGlLZXklMjIlM0FudWxsJTJDJTIybWFya2VycyUyMiUzQSU1QiU1RCU3RA=="></iframe>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="u-size-30" style="min-height: 0px;">
-              <div class="u-layout-col">
-                <div class="u-container-style u-layout-cell u-size-60 u-layout-cell-2">
-                  <div class="u-container-layout u-container-layout-2">
-                    <div class="custom-expanded u-clearfix u-group-elements u-group-elements-1">
-                      <div class="u-social-icons u-social-icons-1">
-                        <a class="u-social-url" title="Sky High Residences" target="_blank" href="https://www.facebook.com/people/Sky-High-Residences/61553816463615/"><span class="u-file-icon u-icon u-social-facebook u-social-icon u-icon-1"><img src="images/phone-call.png" alt=""></span>
-                        </a>
+              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
+                <div class="u-container-layout u-valign-middle-xl u-container-layout-2">
+                  <div class="u-expanded-width u-form u-form-1">
+                    <form action="https://service.nicepagesrv.com/form/v4/form-process" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="email" name="form" style="padding: 10px;">
+                      <div class="u-form-group u-form-name">
+                        <label for="name-3a6f" class="u-label">Name</label>
+                        <input type="text" placeholder="Enter your Name" id="name-3a6f" name="name" class="u-input u-input-rectangle" required="">
                       </div>
-                      <p class="u-text u-text-2">
-                        <a href="tel:0917-507-3098" class="u-btn u-button-link u-button-style u-none u-text-palette-4-base u-btn-2" target="_blank"> 0917-507-3098</a>
-                      </p>
-                    </div>
-                    <div class="custom-expanded u-clearfix u-group-elements u-group-elements-2">
-                      <div class="u-social-icons u-social-icons-2">
-                        <a class="u-social-url" title="Sky High Residences" target="_blank" href="https://www.facebook.com/people/Sky-High-Residences/61553816463615/"><span class="u-icon u-social-facebook u-social-icon u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-27d4"></use></svg><svg class="u-svg-content" viewBox="0 0 512 512" id="svg-27d4"><path d="m512 256c0-141.4-114.6-256-256-256s-256 114.6-256 256 114.6 256 256 256c1.5 0 3 0 4.5-.1v-199.2h-55v-64.1h55v-47.2c0-54.7 33.4-84.5 82.2-84.5 23.4 0 43.5 1.7 49.3 2.5v57.2h-33.6c-26.5 0-31.7 12.6-31.7 31.1v40.8h63.5l-8.3 64.1h-55.2v189.5c107-30.7 185.3-129.2 185.3-246.1z"></path></svg></span>
-                        </a>
+                      <div class="u-form-email u-form-group">
+                        <label for="email-3a6f" class="u-label">Email</label>
+                        <input type="email" placeholder="Enter a valid email address" id="email-3a6f" name="email" class="u-input u-input-rectangle" required="">
                       </div>
-                      <p class="u-text u-text-3">
-                        <a href="https://www.facebook.com/people/Sky-High-Residences/61553816463615/" class="u-btn u-button-link u-button-style u-none u-text-palette-4-base u-btn-3" target="_blank"> Sky High Residences</a>
-                      </p>
-                    </div>
-                    <div class="custom-expanded u-clearfix u-group-elements u-group-elements-3">
-                      <div class="u-social-icons u-social-icons-3">
-                        <a class="u-social-url" title="Sky High Residences" target="_blank" href="https://www.facebook.com/people/Sky-High-Residences/61553816463615/"><span class="u-file-icon u-icon u-social-facebook u-social-icon u-icon-3"><img src="images/maps-and-flags.png" alt=""></span>
-                        </a>
+                      <div class="u-form-group u-form-message">
+                        <label for="message-3a6f" class="u-label">Message</label>
+                        <textarea placeholder="Enter your message" rows="4" cols="50" id="message-3a6f" name="message" class="u-input u-input-rectangle" required=""></textarea>
                       </div>
-                      <p class="u-text u-text-4">
-                        <a href="https://maps.app.goo.gl/4xKvZkzvvcHwkCmC9" class="u-btn u-button-link u-button-style u-none u-text-palette-4-base u-btn-4" target="_blank"> 1582 Iriga Street, Brgy. Valenzuela Makati City 1208&nbsp;</a>
-                      </p>
-                    </div>
-                    <div class="custom-expanded u-clearfix u-group-elements u-group-elements-4">
-                      <div class="u-social-icons u-social-icons-4">
-                        <a class="u-social-url" title="Sky High Residences" target="_blank" href="https://www.facebook.com/people/Sky-High-Residences/61553816463615/"><span class="u-file-icon u-icon u-social-facebook u-social-icon u-icon-4"><img src="images/mail.png" alt=""></span>
-                        </a>
+                      <div class="u-align-left u-form-group u-form-submit">
+                        <a href="#" class="u-btn u-btn-submit u-button-style">Submit</a>
+                        <input type="submit" value="submit" class="u-form-control-hidden">
                       </div>
-                      <p class="u-text u-text-5">
-                        <a href="mailto:skyhighresidences@gmail.com?subject=Sky%20High%20Residences%20Inquiries" class="u-btn u-button-link u-button-style u-none u-text-palette-4-base u-btn-5" target="_blank"> skyhighresidences@gmail.com</a>
-                      </p>
-                    </div>
+                      <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
+                      <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
+                      <input type="hidden" value="" name="recaptchaResponse">
+                      <input type="hidden" name="formServices" value="ea8e2391-cedf-a74f-815d-afddfe4df780">
+                    </form>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    
-    
-    
-    <footer class="u-align-center u-clearfix u-container-align-center u-footer u-white u-footer" id="footer" data-image-width="4000" data-image-height="2250"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1"> ©Copyright 2025 by Skyhigh Residences. All Rights Reserved.</p>
+        <p class="u-align-center u-small-text u-text u-text-variant u-text-1">Sample text. Click to select the Text Element.</p>
       </div></footer>
-
+    <section class="u-backlink u-clearfix u-grey-80"></section>
   
 </body></html>
