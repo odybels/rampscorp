@@ -48598,10 +48598,10 @@ a.u-link.u-text-hover-color-var.hover {
 }
 
 .u-header .u-nav-link-2 {
-  padding: 10px 20px;
+  padding: 6px 0;
 }
 
-.u-header .u-nav-2 {
+.u-header .u-nav-9 {
   font-size: 1.25rem;
 }
 @media (max-width: 1199px) {
@@ -48616,6 +48616,7 @@ a.u-link.u-text-hover-color-var.hover {
   }
 
   .u-header .u-nav-1 {
+    font-weight: 400;
     letter-spacing: normal;
   }
 }
